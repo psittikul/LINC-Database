@@ -7,4 +7,44 @@ and open the template in the editor.
     Created on : Jan 15, 2017, 12:51:09 AM
     Author     : Patricia Sittikul
 */
+#header {
+    width:25%;
+    margin-bottom: 5%;
+}
+#header img {
+    width: 75%;
+}
 
+#sidebar {
+    width: 25%;
+    float: left;
+    height: 100%;
+}
+
+#sidebar ul {
+    list-style-type: none;
+}
+
+#formSection {
+    width: 75%;
+    float: right;
+}
+#employeeForm {
+    width: 48%;
+    float: left;
+}
+
+#divider {
+    width: 3%;
+    height: 75%;
+    background-color: black;
+}
+
+#partnerForm {
+    width: 48%;
+    float: right;
+}
+
+input {
+    margin: .5%;
+}
