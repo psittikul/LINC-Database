@@ -27,7 +27,7 @@ and open the template in the editor.
         </div>
         <div id="formSection">
             <div id="employeeForm">
-                <form method="post" action="clients.php" enctype="multipart/form-data" >
+                <form action="save.php" method="post">
                     <h3>Employee</h3>
                     First Name  <input type="text" name="empFirstName" id="empFirstName"/></br>
                     Last Name <input type="text" name="empLastName" id="empLastName"/></br>
@@ -46,6 +46,7 @@ and open the template in the editor.
                         <option value="braun">B. Braun, Inc.</option>
                         <option value="desales">DeSales</option>
                     </select></br>
+                    <input type="submit">Submit</input>
                 </form>
             </div>
             <div id="partnerForm">

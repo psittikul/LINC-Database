@@ -30,4 +30,3 @@ try {
     die(print_r($ex));
 }
 echo "<h3>Client Services Table Created</h3>";
-?>
